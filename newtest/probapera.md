@@ -1,0 +1,8 @@
+# **Файл**
+
+Это _самый_ `потрясающий` файл в этой папке, и вот почему:
+* это файл
+* он потрясающий
+* других файлов в папке нет
+
+[Link](https://olesar.github.io/lingdata/practicums/practicum-github.html)
