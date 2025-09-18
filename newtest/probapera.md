@@ -5,4 +5,4 @@
 * он потрясающий
 * других файлов в папке нет
 
-[Link](https://olesar.github.io/lingdata/practicums/practicum-github.html)
+[Сегодняшний семик](https://olesar.github.io/lingdata/practicums/practicum-github.html)
