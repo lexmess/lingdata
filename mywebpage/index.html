@@ -7,7 +7,7 @@
 <!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
 
 	<head>
-		<title>Личная страница Веры Кузнецовой</title>
+		<title>Личная страница Саши Мастыкиной</title>
 	 	<!-- Required meta tags -->
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +35,7 @@
 				<nav class="collapse navbar-collapse" id="bs-navbar"> 
 					<ul class="nav navbar-nav navbar-right"> 
 						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a> </li> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2025/latin_2.html">Страница группы</a> </li> 
 <!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
 					</ul>
 				</nav> 
@@ -44,27 +44,35 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:plum; padding-top:70px; "> 
+		<header style="background-color:powderblue; padding-top:70px; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Оля Ляшевская</h1>
+						<h1>Саша Мастыкина</h1>
 						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать</i> HTML</b></p> 
+						<p>"I beg to dream and differ from the hollow lies</p> 
+						<p>This is the dawning of the rest of our lives</p>
+						<p>On holiday!"</p>
+						<p><i><b>— Green Day</b></i></p>
 					</div>
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+<style>
+   .round {
+    border-radius: 170px; /* Радиус скругления */
+   }
+  </style>
+<img src="myphoto.jpg" style="height:250px; margin:20px 20px 40px 20px; " class="round">
 					</div>
 				</div>
 			</div>
 		</header>
 
 <!-- часть страницы, которая под шапкой -->
-		<section id="portfolio">
+		<section id="portfolio" style="background-color:beige; padding-top:70px; ">
 			<div class="container">
 
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
@@ -72,51 +80,51 @@
 
 <!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
 					<article>
-						<h3>Место учебы</h3>
+						<h3>Учусь здесь</h3>
 						<p>Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
 					</article>
 					<article>
-						<h3>Родной город</h3>
+						<h3>Жила всегда здесь</h3>
 						<p>Москва</p>
 					</article>
 					<article>
-						<h3>Школа</h3>
+						<h3>А раньше училась тут</h3>
 <!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
-						<p>СУНЦ НГУ</p>
+						<p>Реальное училище Карла Мазинга (ну или </a><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%8F%D1%82%D1%8C%D0%B4%D0%B5%D1%81%D1%8F%D1%82_%D1%81%D0%B5%D0%B4%D1%8C%D0%BC%D0%B0%D1%8F_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0">57 школа</a>)</p>
 					</article>
 				</div>
 
 				<div class="col-md-6">
 					<article>
-						<h3>Тут можно написать</h3>
-						<p>Еще много много много много много много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						всего о себе</p>
+						<h3>Немножко обо мне</h3>
+						<ul>
+							<li>Я интроверт. Не думайте, пожалуйста, что вы мне чем-то не нравитесь! Я просто стесняюсь заговорить первой, но буду страшно рада, если это сделаете вы:)
+							<li>Я очень люблю музыку. Слушаю в основном рок, но самый разный. Из фаворитов — Green Day, My Chemical Romance, Linkin Park
+							<li>Я обожаю путешествовать и была во многих странах. Самыми запоминающимися были поездки в Англию и Норвегию
+							<li>Мне нравятся древнегреческие мифы, и я всем-всем-всем горячо рекомендую послушать вот этот потрясающий мюзикл: <a href="https://www.youtube.com/watch?v=6K-eMKjo1bs">EPIC: The Musical</a>
+							<li>Когда у меня есть время, я занимаюсь творчеством: клею коллажи, вяжу игрушки, иногда леплю из глины и рисую
+							<li>С детства и до гроба люблю Гарри Поттера и Властелина колец
+							<li>Из любимых сериалов: Благие знамения, Песочный человек (да, все верно, я люблю Нила Геймана), Сверхъестественнное, Очень странные дела
+							
+						</ul>
 					</article>
 				</div>
 
 				<div class="col-md-3">
-					<h3>Я в соцсетях</h3>
+					<h3>Найти меня можно в...</h3>
 <!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
-					<ul>
-						<li>VK</li>
-						<li>Discord</li>
-						<li>Telegram</li>
-					</ul>
+					<a href="https://vk.com/lexmess"> <img src="vklogo.png" style="height:20px; margin:0px 5px 0px 15px;"> VK </a><br>
+					<br><a href="https://t.me/lexmess"> <img src="tglogo.png" style="height:20px; margin:0px 5px 0px 15px;"> Telegram </a><br>
+					<br><a href="https://t.me/coffifeee"> <img src="tglogo.png" style="height:20px; margin:0px 5px 0px 15px;"> моем tg канале</a><br>
+					<br><img src="smile.png" style="height:20px; margin:0px 5px 0px 15px;"> депрессивном эпизоде
 				</div>
 			</div>
 		</section>
 
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
-		<footer class="bs-docs-footer"> 
+		<footer class="bs-docs-footer" style="background-color:beige; padding-top:70px; "> 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Кузнецова, 2024</p> 
+				<p style="text-align:right; ">&copy; Саша Мастыкина, которая правда старалась, 2025</p> 
 			</div>
 		</footer>
 	</body>
